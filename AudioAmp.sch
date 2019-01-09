@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:AudioAmp-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -14,22 +15,22 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Transistor_BJT:2N2219 Q?
+L Pero_Kicad_Libraray:2N5551 Q?
 U 1 1 5C3274E7
 P 3200 5350
 F 0 "Q?" H 3391 5396 50  0000 L CNN
-F 1 "2N2219" H 3391 5305 50  0000 L CNN
+F 1 "2N5551" H 3391 5305 50  0000 L CNN
 F 2 "Package_TO_SOT_THT:TO-39-3" H 3400 5275 50  0001 L CIN
 F 3 "http://www.onsemi.com/pub_link/Collateral/2N2219-D.PDF" H 3200 5350 50  0001 L CNN
 	1    3200 5350
 	1    0    0    -1  
 $EndComp
 $Comp
-L Transistor_BJT:2N2219 Q?
+L Pero_Kicad_Libraray:2N5551 Q?
 U 1 1 5C327571
 P 2400 5350
 F 0 "Q?" H 2591 5396 50  0000 L CNN
-F 1 "2N2219" H 2591 5305 50  0000 L CNN
+F 1 "2N5551" H 2591 5305 50  0000 L CNN
 F 2 "Package_TO_SOT_THT:TO-39-3" H 2600 5275 50  0001 L CIN
 F 3 "http://www.onsemi.com/pub_link/Collateral/2N2219-D.PDF" H 2400 5350 50  0001 L CNN
 	1    2400 5350
@@ -58,22 +59,11 @@ F 3 "~" H 3300 5850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Transistor_BJT:2N3905 Q?
-U 1 1 5C3279B1
-P 2200 3850
-F 0 "Q?" H 2391 3804 50  0000 L CNN
-F 1 "2N3905" H 2391 3895 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-92_Inline" H 2400 3775 50  0001 L CIN
-F 3 "https://www.fairchildsemi.com/datasheets/2N/2N3905.pdf" H 2200 3850 50  0001 L CNN
-	1    2200 3850
-	1    0    0    1   
-$EndComp
-$Comp
-L Transistor_BJT:2N3905 Q?
+L Pero_Kicad_Libraray:2N5401 Q?
 U 1 1 5C327CF3
 P 3400 3850
 F 0 "Q?" H 3591 3804 50  0000 L CNN
-F 1 "2N3905" H 3591 3895 50  0000 L CNN
+F 1 "2N5401" H 3591 3895 50  0000 L CNN
 F 2 "Package_TO_SOT_THT:TO-92_Inline" H 3600 3775 50  0001 L CIN
 F 3 "https://www.fairchildsemi.com/datasheets/2N/2N3905.pdf" H 3400 3850 50  0001 L CNN
 	1    3400 3850
@@ -100,17 +90,6 @@ F 2 "" V 3230 3400 50  0001 C CNN
 F 3 "~" H 3300 3400 50  0001 C CNN
 	1    3300 3400
 	1    0    0    -1  
-$EndComp
-$Comp
-L Transistor_BJT:2N3905 Q?
-U 1 1 5C327ED8
-P 2900 1850
-F 0 "Q?" H 3091 1804 50  0000 L CNN
-F 1 "2N3905" H 3091 1895 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-92_Inline" H 3100 1775 50  0001 L CIN
-F 3 "https://www.fairchildsemi.com/datasheets/2N/2N3905.pdf" H 2900 1850 50  0001 L CNN
-	1    2900 1850
-	-1   0    0    1   
 $EndComp
 $Comp
 L Device:R R?
@@ -170,17 +149,6 @@ Wire Wire Line
 	2800 1250 2800 1100
 Wire Wire Line
 	2800 1100 3200 1100
-$Comp
-L Transistor_BJT:2N3905 Q?
-U 1 1 5C32952A
-P 3900 1500
-F 0 "Q?" H 4091 1454 50  0000 L CNN
-F 1 "2N3905" H 4091 1545 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-92_Inline" H 4100 1425 50  0001 L CIN
-F 3 "https://www.fairchildsemi.com/datasheets/2N/2N3905.pdf" H 3900 1500 50  0001 L CNN
-	1    3900 1500
-	-1   0    0    1   
-$EndComp
 $Comp
 L Device:R R?
 U 1 1 5C329590
@@ -307,15 +275,15 @@ F 3 "~" H 5350 1850 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Transistor_BJT:2SB631 Q?
+L Pero_Kicad_Libraray:2SB649 Q?
 U 1 1 5C331674
 P 5800 1850
-F 0 "Q?" H 5991 1804 50  0000 L CNN
-F 1 "2SB631" H 5991 1895 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-126-3_Vertical" H 6000 1775 50  0001 L CIN
-F 3 "http://pdf.datasheetcatalog.com/datasheet/sanyo/ds_pdf_e/2SB631.pdf" H 5800 1850 50  0001 L CNN
+F 0 "Q?" H 5991 1896 50  0000 L CNN
+F 1 "2SB649" H 5991 1805 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H 6000 1775 50  0001 L CIN
+F 3 "" H 5800 1850 50  0001 L CNN
 	1    5800 1850
-	1    0    0    1   
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	3800 1850 5200 1850
@@ -473,12 +441,12 @@ Wire Wire Line
 Wire Wire Line
 	3600 3850 3800 3850
 $Comp
-L Transistor_BJT:2SD600 Q?
+L Pero_Kicad_Libraray:2SD669 Q?
 U 1 1 5C3589C7
 P 5800 3850
 F 0 "Q?" H 5991 3896 50  0000 L CNN
-F 1 "2SD600" H 5991 3805 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-126-3_Vertical" H 6000 3775 50  0001 L CIN
+F 1 "2SD669" H 5991 3805 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-39-3" H 6000 3775 50  0001 L CIN
 F 3 "http://pdf.datasheetcatalog.com/datasheet/sanyo/ds_pdf_e/2SB631.pdf" H 5800 3850 50  0001 L CNN
 	1    5800 3850
 	1    0    0    -1  
@@ -597,26 +565,15 @@ Wire Wire Line
 	5900 4850 6100 4850
 Connection ~ 5900 4850
 $Comp
-L Transistor_BJT:2N2219 Q?
+L Pero_Kicad_Libraray:2N5551 Q?
 U 1 1 5C368D02
 P 6650 3500
 F 0 "Q?" H 6841 3546 50  0000 L CNN
-F 1 "2N2219" H 6841 3455 50  0000 L CNN
+F 1 "2N5551" H 6841 3455 50  0000 L CNN
 F 2 "Package_TO_SOT_THT:TO-39-3" H 6850 3425 50  0001 L CIN
 F 3 "http://www.onsemi.com/pub_link/Collateral/2N2219-D.PDF" H 6650 3500 50  0001 L CNN
 	1    6650 3500
 	-1   0    0    -1  
-$EndComp
-$Comp
-L Transistor_BJT:2N3905 Q?
-U 1 1 5C3690AF
-P 6650 4200
-F 0 "Q?" H 6841 4154 50  0000 L CNN
-F 1 "2N3905" H 6841 4245 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-92_Inline" H 6850 4125 50  0001 L CIN
-F 3 "https://www.fairchildsemi.com/datasheets/2N/2N3905.pdf" H 6650 4200 50  0001 L CNN
-	1    6650 4200
-	-1   0    0    1   
 $EndComp
 $Comp
 L Device:D_ALT D?
@@ -668,19 +625,6 @@ Connection ~ 4700 3850
 Connection ~ 6550 3850
 Wire Wire Line
 	6550 3850 6550 4000
-Text Notes 1650 6950 0    50   ~ 0
-2N2219 -> 2N5551\n2N3905 -> 2N5401\n2SD600 -> 2SD669\nBC556 -> 2SA1302\n2SB631 -> 2SB649\n2SA1015 -> 2SC3281
-$Comp
-L Transistor_BJT:2SD600 Q?
-U 1 1 5C385F65
-P 5800 5550
-F 0 "Q?" H 5991 5596 50  0000 L CNN
-F 1 "2SD600" H 5991 5505 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-126-3_Vertical" H 6000 5475 50  0001 L CIN
-F 3 "http://pdf.datasheetcatalog.com/datasheet/sanyo/ds_pdf_e/2SB631.pdf" H 5800 5550 50  0001 L CNN
-	1    5800 5550
-	1    0    0    -1  
-$EndComp
 $Comp
 L Device:R R?
 U 1 1 5C386011
@@ -710,17 +654,6 @@ F 3 "~" H 5450 5950 50  0001 C CNN
 	1    5450 5950
 	1    0    0    -1  
 $EndComp
-$Comp
-L Transistor_BJT:2SD600 Q?
-U 1 1 5C38C875
-P 5350 5350
-F 0 "Q?" H 5541 5396 50  0000 L CNN
-F 1 "2SD600" H 5541 5305 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-126-3_Vertical" H 5550 5275 50  0001 L CIN
-F 3 "http://pdf.datasheetcatalog.com/datasheet/sanyo/ds_pdf_e/2SB631.pdf" H 5350 5350 50  0001 L CNN
-	1    5350 5350
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	5450 6100 5450 6150
 Connection ~ 5450 6150
@@ -728,7 +661,6 @@ Wire Wire Line
 	5450 6150 5900 6150
 Wire Wire Line
 	5600 5550 5450 5550
-Connection ~ 5450 5550
 Wire Wire Line
 	5450 5550 5450 5800
 Wire Wire Line
@@ -747,11 +679,11 @@ F 3 "" H 5700 5050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Transistor_BJT:2N2219 Q?
+L Pero_Kicad_Libraray:2N5551 Q?
 U 1 1 5C3A2A5C
 P 4800 5750
 F 0 "Q?" H 4991 5796 50  0000 L CNN
-F 1 "2N2219" H 4991 5705 50  0000 L CNN
+F 1 "2N5551" H 4991 5705 50  0000 L CNN
 F 2 "Package_TO_SOT_THT:TO-39-3" H 5000 5675 50  0001 L CIN
 F 3 "http://www.onsemi.com/pub_link/Collateral/2N2219-D.PDF" H 4800 5750 50  0001 L CNN
 	1    4800 5750
@@ -772,7 +704,6 @@ Wire Wire Line
 	5900 5750 5900 5800
 Wire Wire Line
 	5900 5750 5350 5750
-Connection ~ 5900 5750
 Wire Wire Line
 	5050 5750 5000 5750
 Wire Wire Line
@@ -797,16 +728,16 @@ Connection ~ 4700 5350
 $Comp
 L Device:C C?
 U 1 1 5C3BB561
-P 4050 5000
-F 0 "C?" V 3798 5000 50  0000 C CNN
-F 1 "150p" V 3889 5000 50  0000 C CNN
-F 2 "" H 4088 4850 50  0001 C CNN
-F 3 "~" H 4050 5000 50  0001 C CNN
-	1    4050 5000
+P 4040 5000
+F 0 "C?" V 3788 5000 50  0000 C CNN
+F 1 "150p" V 3879 5000 50  0000 C CNN
+F 2 "" H 4078 4850 50  0001 C CNN
+F 3 "~" H 4040 5000 50  0001 C CNN
+	1    4040 5000
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	3800 5000 3900 5000
+	3800 5000 3890 5000
 Connection ~ 3800 5000
 $Comp
 L Device:R R?
@@ -820,7 +751,7 @@ F 3 "~" H 4250 5600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4200 5000 4250 5000
+	4190 5000 4250 5000
 Wire Wire Line
 	4250 5000 4250 5450
 Wire Wire Line
@@ -883,21 +814,21 @@ Wire Wire Line
 $Comp
 L Device:R R?
 U 1 1 5C3DC153
-P 7300 2250
-F 0 "R?" H 7370 2296 50  0000 L CNN
-F 1 "15K" H 7370 2205 50  0000 L CNN
-F 2 "" V 7230 2250 50  0001 C CNN
-F 3 "~" H 7300 2250 50  0001 C CNN
-	1    7300 2250
+P 7300 1930
+F 0 "R?" H 7370 1976 50  0000 L CNN
+F 1 "15K" H 7370 1885 50  0000 L CNN
+F 2 "" V 7230 1930 50  0001 C CNN
+F 3 "~" H 7300 1930 50  0001 C CNN
+	1    7300 1930
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	7300 2100 7300 1100
+	7300 1780 7300 1100
 Connection ~ 7300 1100
 Wire Wire Line
 	7300 1100 8000 1100
 Wire Wire Line
-	7300 2400 7300 3500
+	7300 2080 7300 3500
 Connection ~ 7300 3500
 $Comp
 L Device:R R?
@@ -936,17 +867,6 @@ Wire Wire Line
 	4200 4550 3800 4550
 Connection ~ 3800 4550
 $Comp
-L Transistor_BJT:2SD600 Q?
-U 1 1 5C3F7390
-P 7900 2850
-F 0 "Q?" H 8091 2896 50  0000 L CNN
-F 1 "2SD600" H 8091 2805 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-126-3_Vertical" H 8100 2775 50  0001 L CIN
-F 3 "http://pdf.datasheetcatalog.com/datasheet/sanyo/ds_pdf_e/2SB631.pdf" H 7900 2850 50  0001 L CNN
-	1    7900 2850
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:R R?
 U 1 1 5C3F7A4E
 P 8000 1550
@@ -967,17 +887,6 @@ Wire Wire Line
 Wire Wire Line
 	6550 2850 7700 2850
 Connection ~ 6550 2850
-$Comp
-L Transistor_BJT:2SB631 Q?
-U 1 1 5C40A00E
-P 7900 4850
-F 0 "Q?" H 8091 4804 50  0000 L CNN
-F 1 "2SB631" H 8091 4895 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-126-3_Vertical" H 8100 4775 50  0001 L CIN
-F 3 "http://pdf.datasheetcatalog.com/datasheet/sanyo/ds_pdf_e/2SB631.pdf" H 7900 4850 50  0001 L CNN
-	1    7900 4850
-	1    0    0    1   
-$EndComp
 Wire Wire Line
 	6550 4850 7700 4850
 Connection ~ 6550 4850
@@ -1026,22 +935,22 @@ Wire Wire Line
 Wire Wire Line
 	7300 3500 7750 3500
 $Comp
-L Transistor_BJT:2SA1015 Q?
+L Pero_Kicad_Libraray:2SC3281 Q?
 U 1 1 5C4282B9
 P 8600 5400
 F 0 "Q?" H 8791 5446 50  0000 L CNN
-F 1 "2SA1015" H 8791 5355 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-92_Inline" H 8800 5325 50  0001 L CIN
+F 1 "2SC3281" H 8791 5355 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-3PL" H 8800 5325 50  0001 L CIN
 F 3 "http://www.datasheetcatalog.org/datasheet/toshiba/905.pdf" H 8600 5400 50  0001 L CNN
 	1    8600 5400
 	1    0    0    -1  
 $EndComp
 $Comp
-L Transistor_BJT:BC556 Q?
+L Pero_Kicad_Libraray:2SA1302 Q
 U 1 1 5C429CAC
 P 8600 2450
-F 0 "Q?" H 8791 2404 50  0000 L CNN
-F 1 "BC556" H 8791 2495 50  0000 L CNN
+F 0 "Q" H 8791 2404 50  0000 L CNN
+F 1 "2SA1302" H 8791 2495 50  0000 L CNN
 F 2 "Package_TO_SOT_THT:TO-92_Inline" H 8800 2375 50  0001 L CIN
 F 3 "http://www.fairchildsemi.com/ds/BC/BC557.pdf" H 8600 2450 50  0001 L CNN
 	1    8600 2450
@@ -1125,7 +1034,7 @@ Wire Wire Line
 	9250 3900 9250 3850
 Connection ~ 9250 3850
 Wire Wire Line
-	9250 3850 9500 3850
+	9250 3850 9450 3850
 $Comp
 L Device:C C?
 U 1 1 5C473962
@@ -1153,7 +1062,7 @@ Wire Wire Line
 Wire Wire Line
 	9250 4350 9250 4200
 Wire Wire Line
-	9800 3850 9900 3850
+	9750 3850 9900 3850
 $Comp
 L Device:R R?
 U 1 1 5C48D2B5
@@ -1170,21 +1079,21 @@ Connection ~ 8700 4200
 $Comp
 L Device:R R?
 U 1 1 5C48D99B
-P 9650 3850
-F 0 "R?" V 9750 3850 50  0000 C CNN
-F 1 "10R" V 9850 3850 50  0000 C CNN
-F 2 "" V 9580 3850 50  0001 C CNN
-F 3 "~" H 9650 3850 50  0001 C CNN
-F 4 "2W" V 9950 3850 50  0000 C CNN "Power"
-	1    9650 3850
+P 9600 3850
+F 0 "R?" V 9700 3850 50  0000 C CNN
+F 1 "10R" V 9800 3850 50  0000 C CNN
+F 2 "" V 9530 3850 50  0001 C CNN
+F 3 "~" H 9600 3850 50  0001 C CNN
+F 4 "2W" V 9900 3850 50  0000 C CNN "Power"
+	1    9600 3850
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:L L?
+L Device:L L1
 U 1 1 5C48E24F
 P 9650 3650
-F 0 "L?" V 9840 3650 50  0000 C CNN
-F 1 "L" V 9749 3650 50  0000 C CNN
+F 0 "L1" V 9750 3750 50  0000 C CNN
+F 1 "1u" V 9600 3750 50  0000 C CNN
 F 2 "" H 9650 3650 50  0001 C CNN
 F 3 "~" H 9650 3650 50  0001 C CNN
 	1    9650 3650
@@ -1200,9 +1109,7 @@ Wire Wire Line
 	9900 3650 9900 3850
 Connection ~ 9900 3850
 Wire Wire Line
-	9900 3850 10000 3850
-Text GLabel 10000 3850 2    50   Input ~ 0
-OUT
+	9900 3850 10020 3850
 $Comp
 L Device:CP C2
 U 1 1 5C49BA93
@@ -1232,8 +1139,6 @@ Wire Wire Line
 Connection ~ 1650 3850
 Wire Wire Line
 	900  3850 800  3850
-Text GLabel 800  3850 0    50   Input ~ 0
-IN
 $Comp
 L Device:CP C?
 U 1 1 5C4B259C
@@ -1381,4 +1286,116 @@ Wire Wire Line
 Connection ~ 5900 1500
 Wire Wire Line
 	5900 1500 5900 1650
+$Comp
+L Pero_Kicad_Libraray:2N5401 Q?
+U 1 1 5C57728A
+P 2900 1850
+F 0 "Q?" H 3091 1804 50  0000 L CNN
+F 1 "2N5401" H 3091 1895 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H 3100 1775 50  0001 L CIN
+F 3 "" H 2900 1850 50  0001 L CNN
+	1    2900 1850
+	-1   0    0    1   
+$EndComp
+$Comp
+L Pero_Kicad_Libraray:2N5401 Q?
+U 1 1 5C5777D8
+P 6650 4200
+F 0 "Q?" H 6841 4154 50  0000 L CNN
+F 1 "2N5401" H 6841 4245 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H 6850 4125 50  0001 L CIN
+F 3 "" H 6650 4200 50  0001 L CNN
+	1    6650 4200
+	-1   0    0    1   
+$EndComp
+$Comp
+L Pero_Kicad_Libraray:2N5401 Q?
+U 1 1 5C578D71
+P 3900 1500
+F 0 "Q?" H 4091 1454 50  0000 L CNN
+F 1 "2N5401" H 4091 1545 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H 4100 1425 50  0001 L CIN
+F 3 "" H 3900 1500 50  0001 L CNN
+	1    3900 1500
+	-1   0    0    1   
+$EndComp
+$Comp
+L Pero_Kicad_Libraray:2SB649 Q?
+U 1 1 5C5796DF
+P 7900 4850
+F 0 "Q?" H 8100 4820 50  0000 L CNN
+F 1 "2SB649" H 8100 4900 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H 8100 4775 50  0001 L CIN
+F 3 "" H 7900 4850 50  0001 L CNN
+	1    7900 4850
+	1    0    0    1   
+$EndComp
+$Comp
+L Pero_Kicad_Libraray:2N5401 Q?
+U 1 1 5C57CECA
+P 2200 3850
+F 0 "Q?" H 2391 3804 50  0000 L CNN
+F 1 "2N5401" H 2391 3895 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H 2400 3775 50  0001 L CIN
+F 3 "https://www.fairchildsemi.com/datasheets/2N/2N3905.pdf" H 2200 3850 50  0001 L CNN
+	1    2200 3850
+	1    0    0    1   
+$EndComp
+$Comp
+L Pero_Kicad_Libraray:2SD669 Q?
+U 1 1 5C5877E5
+P 7900 2850
+F 0 "Q?" H 8091 2896 50  0000 L CNN
+F 1 "2SD669" H 8091 2805 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-39-3" H 8100 2775 50  0001 L CIN
+F 3 "http://pdf.datasheetcatalog.com/datasheet/sanyo/ds_pdf_e/2SB631.pdf" H 7900 2850 50  0001 L CNN
+	1    7900 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Pero_Kicad_Libraray:2SD669 Q?
+U 1 1 5C5882E4
+P 5800 5550
+F 0 "Q?" H 5991 5596 50  0000 L CNN
+F 1 "2SD669" H 5991 5505 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-39-3" H 6000 5475 50  0001 L CIN
+F 3 "http://pdf.datasheetcatalog.com/datasheet/sanyo/ds_pdf_e/2SB631.pdf" H 5800 5550 50  0001 L CNN
+	1    5800 5550
+	1    0    0    -1  
+$EndComp
+Connection ~ 5900 5750
+$Comp
+L Pero_Kicad_Libraray:2SD669 Q?
+U 1 1 5C5886C8
+P 5350 5350
+F 0 "Q?" H 5541 5396 50  0000 L CNN
+F 1 "2SD669" H 5541 5305 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-39-3" H 5550 5275 50  0001 L CIN
+F 3 "http://pdf.datasheetcatalog.com/datasheet/sanyo/ds_pdf_e/2SB631.pdf" H 5350 5350 50  0001 L CNN
+	1    5350 5350
+	1    0    0    -1  
+$EndComp
+Connection ~ 5450 5550
+Text Notes 1650 6850 0    50   ~ 0
+Complementary BJTs\n2N5551 - 2N5401,    Ic = 0.6A, TO-92\n2SD669 - 2SB649,    Ic = 1.5A, TO-126\n2SA1302 - 2SC3281,  Ic = 15A, TO-3P
+Text Notes 4600 6250 0    50   ~ 0
+Darlington VA stage with current limit
+Text Notes 1850 6250 0    50   ~ 0
+Input stage with current mirror and current source\n
+Text Notes 7700 6250 0    50   ~ 0
+Class B OPS with complimentary feedback
+Text Notes 2700 1050 0    50   ~ 0
+Current source for diff. pair
+Text Notes 5350 1050 0    50   ~ 0
+Current source for VA
+Text HLabel 10020 3850 2    50   Input ~ 0
+OUT
+Text HLabel 800  3850 0    50   Input ~ 0
+IN
+Wire Wire Line
+	7300 3850 8700 3850
+Text Notes 6040 2600 0    50   ~ 0
+Single slope current limiter
+Text Notes 5330 2090 0    50   ~ 0
+OPS Bias
 $EndSCHEMATC

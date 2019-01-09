@@ -1,1 +1,4 @@
 *.bak
+*.bck
+*.dcm
+sym-lib-table
