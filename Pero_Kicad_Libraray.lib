@@ -133,4 +133,28 @@ X C 3 100 200 100 D 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# R
+#
+DEF R R 0 0 N Y 1 F N
+F0 "R" 80 0 50 V V C CNN
+F1 "R" 0 0 50 V V C CNN
+F2 "Resistor_THT:R_Radial_Power_L13.0mm_W9.0mm_P5.00mm" -70 0 50 V I C CNN
+F3 "https://at.rs-online.com/web/p/widerstande-durchsteckmontage/1997602/" 80 0 50 V I C CNN
+F4 "±5%" 350 50 50 V I C CNN "Tolerance"
+F5 "5W" 150 0 50 V V C CNN "Power"
+F6 "TE Connectivty" 550 250 50 V I C CNN "Manufacturer"
+F7 "SQMW5R22J " 650 200 50 V I C CNN "Part Number"
+F8 "199-7602 " 750 200 50 V I C CNN "RS Number"
+F9 "220 mΩ" 250 100 50 V I C CNN "Resistance"
+F10 "±300ppm/°C" 450 200 50 V I C CNN "Temp. coeff."
+$FPLIST
+ R_*
+$ENDFPLIST
+DRAW
+S -40 -100 40 100 0 1 10 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 #End Library
