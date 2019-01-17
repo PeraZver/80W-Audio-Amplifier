@@ -5,11 +5,11 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title "Audio Amplifier"
+Title "80W HiFi Amplifier"
 Date ""
-Rev "Draft"
+Rev "A0"
 Comp "Pero Krivic"
-Comment1 "80 W HiFi Amplifier"
+Comment1 ""
 Comment2 ""
 Comment3 ""
 Comment4 ""
