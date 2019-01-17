@@ -1,6 +1,25 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
+# 1778638
+#
+DEF 1778638 J 0 30 Y Y 1 F N
+F0 "J" 400 300 50 H V L CNN
+F1 "1778638" 400 200 50 H V L CNN
+F2 "1778638" 400 100 50 H I L CNN
+F3 "http://uk.rs-online.com/web/p/products/7124507" 400 0 50 H I L CNN
+F4 "Phoenix Contact PTSM Series, 2.5mm Pitch 3 Way 1 Row Right Angle PCB Terminal Block, Solder Termination, 6A" 400 -100 50 H I L CNN "Description"
+F5 "7124507" 400 -300 50 H I L CNN "RS Part Number"
+F6 "Phoenix Contact" 400 -400 50 H I L CNN "Manufacturer_Name"
+F7 "1778638" 400 -500 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+S 200 100 350 -300 0 1 0 N
+X 1 1 0 0 200 R 50 50 0 0 B
+X 2 2 0 -100 200 R 50 50 0 0 B
+X 3 3 0 -200 200 R 50 50 0 0 B
+ENDDRAW
+ENDDEF
+#
 # 2N5401
 #
 DEF 2N5401 Q 0 0 N N 1 F N
