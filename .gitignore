@@ -4,3 +4,6 @@
 sym-lib-table
 *bak
 *.xml
+bom/
+fp-lib-table
+_saved_*
