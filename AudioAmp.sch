@@ -1224,7 +1224,7 @@ F 1 "Fuse" V 9894 1100 50  0000 C CNN
 F 2 "Fuse_Holders_and_Fuses:Fuseholder5x20_horiz_open_inline_Type-I" V 9930 1100 50  0001 C CNN
 F 3 "" H 10000 1100 50  0001 C CNN
 F 4 " 769-0168" V 10200 1100 50  0000 C CNN "RS Number"
-F 5 "2A" V 10100 1100 50  0000 C CNN "Rating"
+F 5 "3A" V 10100 1100 50  0000 C CNN "Rating"
 	1    10000 1100
 	0    1    1    0   
 $EndComp
@@ -1505,7 +1505,7 @@ F 1 "Fuse" V 9844 6150 50  0000 C CNN
 F 2 "Fuse_Holders_and_Fuses:Fuseholder5x20_horiz_open_inline_Type-I" V 9880 6150 50  0001 C CNN
 F 3 "" H 9950 6150 50  0001 C CNN
 F 4 " 769-0168" V 10150 6150 50  0000 C CNN "RS Number"
-F 5 "2A" V 10050 6150 50  0000 C CNN "Rating"
+F 5 "3A" V 10050 6150 50  0000 C CNN "Rating"
 	1    9950 6150
 	0    1    1    0   
 $EndComp
@@ -1513,4 +1513,8 @@ Text Label 8950 1100 0    50   ~ 0
 VCC_FUSED
 Text Label 8950 6150 0    50   ~ 0
 VSS_FUSED
+Text Notes 7910 3720 0    50   ~ 0
+Ilim = .65/.22 = 3A
+Text Notes 6500 1340 0    50   ~ 0
+Ic=6.5mA
 $EndSCHEMATC
