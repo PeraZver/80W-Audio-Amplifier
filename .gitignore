@@ -4,7 +4,12 @@
 sym-lib-table
 *bak
 *.xml
-bom/
 fp-lib-table
 _saved_*
+
+bom/
 Exports/
+Simulation/*.raw
+Simulation/*.log
+Simulation/*.plt
+Simulation/*.fft

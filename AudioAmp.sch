@@ -283,7 +283,7 @@ F 1 "2SB649" H 6241 1805 50  0000 L CNN
 F 2 "Package_TO_SOT_THT:TO-126-3_Vertical" H 6250 1775 50  0001 L CIN
 F 3 "" H 6050 1850 50  0001 L CNN
 	1    6050 1850
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 Wire Wire Line
 	4050 1850 5450 1850
@@ -1513,8 +1513,8 @@ Text Label 8950 1100 0    50   ~ 0
 VCC_FUSED
 Text Label 8950 6150 0    50   ~ 0
 VSS_FUSED
-Text Notes 7910 3720 0    50   ~ 0
-Ilim = .65/.22 = 3A
+Text Notes 7850 3700 0    50   ~ 0
+Ilim = .65/.3/.22 = 9.8A
 Text Notes 6500 1340 0    50   ~ 0
 Ic=6.5mA
 $Comp
