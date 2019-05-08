@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source C:\Users\pero.krivic\Documents\80W-Audio-Amplifier\AudioAmp.sch)
-    (date "18/02/2019 12:00:21")
+    (date "19/03/2019 10:03:34")
     (tool "Eeschema (5.0.0)")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
