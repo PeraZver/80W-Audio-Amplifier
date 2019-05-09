@@ -13,3 +13,7 @@ Simulation/*.raw
 Simulation/*.log
 Simulation/*.plt
 Simulation/*.fft
+Simulation/*.net
+
+Measurements/
+Datasheets
