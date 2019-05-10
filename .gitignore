@@ -17,3 +17,5 @@ Simulation/*.net
 
 Measurements/
 Datasheets
+Preamp/Gerbers/
+*.zip
