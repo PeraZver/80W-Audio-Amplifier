@@ -598,7 +598,7 @@ Wire Wire Line
 	9700 4100 9700 4500
 Connection ~ 9700 4500
 Wire Wire Line
-	9700 5000 9700 5150
+	9700 5000 9700 5100
 $Comp
 L power:GND #PWR0104
 U 1 1 5CD611BF
@@ -964,8 +964,6 @@ F 3 "" H 10400 5100 50  0001 C CNN
 	1    10400 5100
 	1    0    0    1   
 $EndComp
-Wire Wire Line
-	10200 5100 9700 5100
 $Comp
 L Connector_Generic:Conn_01x01 J1
 U 1 1 5CD69BE4
@@ -1154,4 +1152,9 @@ Text Notes 3700 2350 0    50   ~ 0
 Stage 1: 6dB gain
 Text Notes 7650 2350 0    50   ~ 0
 Stage 2: 6dB gain
+Wire Wire Line
+	10200 5100 9700 5100
+Connection ~ 9700 5100
+Wire Wire Line
+	9700 5100 9700 5150
 $EndSCHEMATC
