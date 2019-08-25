@@ -4,7 +4,8 @@
 sym-lib-table
 *bak
 *.xml
-fp-lib-table
+*fp-lib-table
+*fp-info-cache
 _saved_*
 
 bom/
@@ -19,3 +20,5 @@ Measurements/
 Datasheets
 Preamp/Gerbers/
 *.zip
+
+Power/gerbers
