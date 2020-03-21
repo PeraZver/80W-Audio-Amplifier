@@ -1,4 +1,4 @@
-(kicad_pcb (version 20171130) (host pcbnew "(5.0.0)")
+(kicad_pcb (version 20171130) (host pcbnew "(5.1.2)-2")
 
   (general
     (thickness 1.6)
@@ -17,8 +17,8 @@
   )
 
   (layers
-    (0 F.Cu signal)
-    (31 B.Cu signal)
+    (0 F.Cu signal hide)
+    (31 B.Cu signal hide)
     (32 B.Adhes user hide)
     (33 F.Adhes user hide)
     (34 B.Paste user hide)
@@ -45,8 +45,6 @@
     (zone_clearance 0.508)
     (zone_45_only no)
     (trace_min 0.2)
-    (segment_width 0.2)
-    (edge_width 0.15)
     (via_size 0.8)
     (via_drill 0.4)
     (via_min_size 0.4)
@@ -56,6 +54,8 @@
     (uvias_allowed no)
     (uvia_min_size 0.2)
     (uvia_min_drill 0.1)
+    (edge_width 0.15)
+    (segment_width 0.2)
     (pcb_text_width 0.3)
     (pcb_text_size 1.5 1.5)
     (mod_edge_width 0.15)
@@ -5219,8 +5219,6 @@
   (segment (start 133.5 104.46) (end 135.062 104.46) (width 0.5) (layer B.Cu) (net 22))
   (segment (start 145.317083 63.085) (end 149.414284 63.085) (width 0.5) (layer F.Cu) (net 23))
   (segment (start 144.185713 63.085) (end 145.317083 63.085) (width 0.5) (layer F.Cu) (net 23))
-  (segment (start 133.768571 73.245) (end 133.728571 73.285) (width 0.5) (layer F.Cu) (net 47))
-  (segment (start 138.957142 73.245) (end 133.768571 73.245) (width 0.5) (layer F.Cu) (net 47))
   (segment (start 133.32 86.36) (end 133.5 86.54) (width 0.5) (layer F.Cu) (net 23))
   (segment (start 141.732 65.538713) (end 144.185713 63.085) (width 0.5) (layer F.Cu) (net 23))
   (segment (start 141.732 74.422) (end 141.732 65.538713) (width 0.5) (layer F.Cu) (net 23))
@@ -5442,6 +5440,8 @@
   (segment (start 186.944 129.032) (end 222.593 129.032) (width 2.1) (layer F.Cu) (net 46))
   (segment (start 179 117) (end 179 121.088) (width 2.1) (layer F.Cu) (net 46))
   (segment (start 179 121.088) (end 186.944 129.032) (width 2.1) (layer F.Cu) (net 46))
+  (segment (start 133.768571 73.245) (end 133.728571 73.285) (width 0.5) (layer F.Cu) (net 47))
+  (segment (start 138.957142 73.245) (end 133.768571 73.245) (width 0.5) (layer F.Cu) (net 47))
   (segment (start 133.728571 83.771429) (end 133.5 84) (width 0.5) (layer F.Cu) (net 47))
   (segment (start 133.728571 73.285) (end 133.728571 83.771429) (width 0.5) (layer F.Cu) (net 47))
 
